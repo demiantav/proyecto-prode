@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    filter: opacity(px);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+
+.contenedor{
+
+   
+    height: 100vh;
+    
+}
+
+.contenedor-login{
+
+    padding: 2em;
+    background-color: rgba(86, 4, 44, 0.815);
+    width: clamp(300px,60%,600px);
+    border-radius: 5%;
+    text-align: center;
+    color: white;
+  
+}
+
+.inp-mail, .inp-pass{
+
+    background: hsla(0,0%,100%,.25);
+    padding: .5em;
+    border-style: none;
+    
+
+}
+
+.btn-login{
+
+    padding: .5em;
+    background-color: blue;
+    color: whitesmoke;
+    border-style: none;
+    cursor: pointer;
+
+
+}
+
+::placeholder{
+    color: rgb(240, 248, 255);
+}
+
+.logos{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3em;
+    position: relative;
+    width: 100%;
+    
+}
+
+.logo-mundial{
+
+    height: 90px;
+    width: 90px;
+}
+
+.logo-solvens{
+
+    width: clamp(300px,50%,500px);
+}
+
+.contenedor{
+
+    display: grid;
+    place-items: center;
+
+
+}
+
+
+
+.form{
+
+    display: flex;
+    flex-direction: column;
+    
+    
+
+
+}
