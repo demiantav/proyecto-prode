@@ -31,7 +31,7 @@ video{
     transform: translateY(120px);
     background-color: rgba(86, 4, 15, 0.87);
     width: clamp(300px,60%,600px);
-    border-radius: 4%;
+    border-radius: .9em;
     text-align: center;
     color: white;
   
@@ -40,7 +40,7 @@ video{
 .inp-mail, .inp-pass{
 
     background: hsla(0,0%,100%,.25);
-    padding: .5em;
+    padding: .8em;
     border-style: none;
     color: white;
     outline: none;
@@ -51,7 +51,7 @@ video{
 
 .btn-login{
 
-    padding: .5em;
+    padding: .8em;
     background-color: rgb(254, 195, 16);
     border-style: none;
     cursor: pointer;
@@ -83,7 +83,7 @@ a{
     flex-direction: row;
     justify-content: space-between;
     padding: 1.5em;
-    width: 100%;
+    
 
     
     
@@ -93,17 +93,20 @@ a{
 
 .logo-qatar{
 
-    width: 100px;
-    height: 100px;
+    width: clamp(83px,20%,128px);
+    
 
 }
 
 .logo-solvens{
 
-    width: 220px;
-    height: 100px;
-    
+    width: clamp(160px,20%,200px);
+    height: 83px;
 }
+
+
+
+
 
 span{
 
