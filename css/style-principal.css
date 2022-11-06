@@ -1,0 +1,70 @@
+@import url('style-login.css');
+
+body{
+
+    background-image: url("../images/diego.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+.header-principal{
+
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color:transparent;
+    position: absolute;
+    top: 0;
+}
+
+.info-usuario{
+
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.logo-solvens{
+
+    margin: 1em;
+}
+
+.info-nombre, .info-torneo{
+    display: flex;
+    flex-direction: row;
+    margin: .4em;
+    
+}
+
+.info-nombre span, .info-torneo  span {
+
+    padding: .1em;
+}
+
+.container-principal{
+
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    position: relative;
+    
+    object-fit: cover;
+   
+}
+
+.cont-opciones{
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
