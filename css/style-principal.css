@@ -2,14 +2,18 @@
 
 body{
 
-    background-image: url("../images/diego.jpg");
+    background-image: linear-gradient(
+        rgba(160, 23, 23, 0.267), 
+        rgba(255, 0, 0, 0.336)), 
+        url("../images/diego.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
     width: 100vw;
     height: 100vh;
+    font-family: 'Varela Round', sans-serif;;
 }
+
 
 .header-principal{
 
@@ -17,20 +21,32 @@ body{
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    background-color:transparent;
-    position: absolute;
+    position: sticky;
     top: 0;
+    align-self: flex-start;
+    background-color: rgba(63, 31, 31, 0.274);
 }
 
 .info-usuario{
 
-    background-color: aqua;
+    
     display: flex;
     flex-direction: column;
     position: absolute;
     bottom: 0;
     right: 0;
+    margin-right: 1.5em;
+    background-color: rgba(53, 3, 3, 0.699);
+    border-radius: .3em;
+    color: aliceblue;
     
+}
+
+.info-torneo span:nth-child(odd){
+
+    color: rgb(254, 195, 16);
+
+
 }
 
 .logo-solvens{
@@ -55,9 +71,7 @@ body{
     display: grid;
     place-items: center;
     height: 100vh;
-    position: relative;
-    
-    object-fit: cover;
+
    
 }
 
@@ -66,5 +80,72 @@ body{
     display: flex;
     flex-direction: column;
     align-content: center;
+    gap: 10px;
+    width: 60%;
+    
+    
 }
 
+.cont-opciones button{
+
+    border-radius: 8px;
+    border: 2px solid #111;
+    border-radius: 8px;
+    cursor: pointer;
+    position:relative;
+    padding: 3em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    filter: grayscale(0);
+    transition: all .1s ease-in;
+    
+
+
+}
+
+.cont-opciones button:hover{
+
+    
+   
+    
+}
+
+button:hover p{
+
+    opacity: 1;
+    
+}
+
+.titulo-boton{
+
+    width: 100%;
+    background-color: #550d03d3;
+    color: white;
+    border: .2em solid black;
+    padding: .5rem;
+    border-radius: .6em;
+    opacity: 0;
+    
+    
+}
+
+.cont-opciones button:nth-child(1){
+
+    background-image: url("../images/messi.jpg");
+   
+}
+
+.cont-opciones button:nth-child(2){
+
+    background-image: url("../images/maradona-mano.jpg");
+   
+}
+
+.cont-opciones button:nth-child(3){
+
+    background-image: url("../images/copaamerica.jpg");
+   
+}
+
+  
