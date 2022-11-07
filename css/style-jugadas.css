@@ -1,0 +1,68 @@
+@import url('style-principal.css');
+
+
+
+.contenedor-grupos{
+
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(207, 201, 201, 0.308);
+    color: white;
+    border-radius: .5em;
+    
+}
+
+.contenedor-grupo{
+
+    padding: 1em;
+    background-color: rgba(116, 15, 15, 0.699);
+    border-radius: .5em;
+    
+}
+
+.contenedor-partidos{
+    
+    background-color: rgba(95, 95, 95, 0.301);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.info-partido{
+
+    display: grid;
+    grid-template-columns: repeat(5, 3.2em);
+    gap: 15px;
+    padding: 1em;
+    background-color: black;
+    
+    
+}
+
+.resultado{
+
+  
+    border-radius: .5em;
+    border-style: none;
+    text-align: center;
+    
+    
+    
+}
+
+.jornadas{
+    
+    margin-top: 1em;
+    background-color: rgba(37, 5, 5, 0.877);
+    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5em;
+    
+    
+}
+
+
+
