@@ -10,7 +10,7 @@ body{
     background-position: center;
     background-size: cover;
     height: 100vh;
-    font-family: 'Varela Round', sans-serif;;
+    font-family: 'Varela Round', sans-serif;
 }
 
 
@@ -38,8 +38,13 @@ body{
     background-color: rgba(53, 3, 3, 0.699);
     border-radius: .3em;
     color: aliceblue;
-    width: fit-content;
+   
     
+}
+
+.info-usuario img{
+
+    width: 50px;
 }
 
 .info-torneo span:nth-child(odd){
@@ -72,10 +77,6 @@ body{
     place-items: center;
     height: 100vh;
 
-   
-    
-
-   
 }
 
 .cont-opciones{
@@ -84,13 +85,16 @@ body{
     flex-direction: column;
     align-content: center;
     gap: 10px;
-    width: 60%;
+    width: 80%;
+    
+    
     
     
 }
 
 .cont-opciones button{
-
+    
+    
     border-radius: 8px;
     border: 2px solid rgba(185, 180, 180, 0.795);
     border-radius: 8px;
@@ -99,8 +103,7 @@ body{
     padding: 3em;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
-    filter: grayscale(0);
+    background-size: cover;
     transition: all .1s ease-in;
     
     

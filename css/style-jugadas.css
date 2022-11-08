@@ -1,18 +1,6 @@
 @import url('style-principal.css');
 
 
-body{
-
-    background-image: linear-gradient(
-        rgba(160, 23, 23, 0.267), 
-        rgba(255, 0, 0, 0.336)), 
-        url("../images/diego.jpg");
-    background-repeat:repeat;
-    background-position: center;
-    background-size: cover;
-    font-family: 'Varela Round', sans-serif;
-   
-}
 
 .header-principal{
 
@@ -25,9 +13,6 @@ body{
     flex-direction: column;
     align-items: center;
     
-    
-
-  
 }
 
 
