@@ -1,28 +1,68 @@
 @import url('style-principal.css');
 
+body{
+
+    background-image: linear-gradient(
+        rgba(160, 23, 23, 0.267), 
+        rgba(255, 0, 0, 0.336)), 
+        url("../images/diego.jpg");
+    background-repeat:repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Varela Round', sans-serif;;
+}
+
+.container-principal{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  
+}
+
 
 
 .contenedor-grupos{
 
     text-align: center;
-    padding: 1em;
     background-color: rgba(207, 201, 201, 0.308);
     color: white;
     border-radius: .5em;
+    width: 79%;
+    
+    
+    
+    
+    
+    
     
 }
 
 .contenedor-grupo{
 
-    padding: 1em;
+    
     background-color: rgba(116, 15, 15, 0.699);
     border-radius: .5em;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    
+    
+   
     
 }
 
+
+
 .contenedor-partidos{
     
-    background-color: rgba(95, 95, 95, 0.301);
+ 
     display: flex;
     flex-direction: column;
     
@@ -30,38 +70,78 @@
 
 .info-partido{
 
-    display: grid;
-    grid-template-columns: repeat(5, 3.2em);
-    gap: 15px;
-    padding: 1em;
-    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
     
     
 }
 
-.resultado{
+.cont-vs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    gap: 10%;
+}
 
-  
+.resultado{
+    
     border-radius: .5em;
     border-style: none;
     text-align: center;
-    
-    
+    font-weight: bolder;
+    padding: .2em;
+    width: 100%;
+   
     
 }
 
 .jornadas{
     
-    margin-top: 1em;
+    
     background-color: rgba(37, 5, 5, 0.877);
-    padding: .5em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     border-radius: .5em;
     
+    height: 70%;
     
+}
+
+.jornadas > p{
+
+    background-color: rgb(254, 195, 16);
+    width: 50%;
+    border-radius: .3em;
+    color: rgba(24, 22, 22, 0.815);
+    font-size: larger;
+    font-weight: bold;
+
+
+}
+
+.pais{
+
+    width: 50%;
+}
+
+.img-pais{
+
+    width: 20%;
+}
+
+.cont-band{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
 }
 
 

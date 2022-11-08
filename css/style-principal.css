@@ -6,10 +6,9 @@ body{
         rgba(160, 23, 23, 0.267), 
         rgba(255, 0, 0, 0.336)), 
         url("../images/diego.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     background-size: cover;
-    width: 100vw;
     height: 100vh;
     font-family: 'Varela Round', sans-serif;;
 }
@@ -24,7 +23,7 @@ body{
     position: sticky;
     top: 0;
     align-self: flex-start;
-    background-color: rgba(63, 31, 31, 0.274);
+    background-color: rgba(63, 31, 31, 0.753);
 }
 
 .info-usuario{
@@ -68,9 +67,10 @@ body{
 
 .container-principal{
 
-    display: grid;
-    place-items: center;
-    height: 100vh;
+    height: 100%;
+
+   
+    
 
    
 }
