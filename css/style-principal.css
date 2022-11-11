@@ -25,6 +25,7 @@ body{
     top: 0;
     align-self: flex-start;
     background-color: rgba(63, 31, 31, 0.753);
+    gap: 2em;
 }
 
 .info-usuario{
@@ -32,12 +33,10 @@ body{
     
     display: flex;
     flex-direction: column;
-    bottom: 0;
-    right: 0;
-    margin-right: 1.5em;
     background-color: rgba(53, 3, 3, 0.699);
     border-radius: .3em;
     color: aliceblue;
+    
    
     
 }
@@ -69,6 +68,7 @@ body{
     display: grid;
     place-items: center;
     height: 100vh;
+    
 
 }
 
@@ -136,8 +136,10 @@ button:hover p{
 
 .tit-principal{
 
-    color:rgb(254, 195, 16);
-    width: 60%;
+    color: aliceblue;
+    font-size: clamp(16px,4vw,25px);
+    font-weight: bold ;
+    
     
 }
 

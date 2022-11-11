@@ -1,0 +1,12 @@
+@import url('style-jugadas.css');
+
+.resultados{
+
+    width: 75%;
+    align-self:center;
+}
+
+.jornadas{
+
+    margin-top: 1rem;
+}
