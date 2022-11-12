@@ -25,7 +25,8 @@ body{
     top: 0;
     align-self: flex-start;
     background-color: rgba(63, 31, 31, 0.753);
-    gap: 2em;
+    z-index: 1;
+    padding: 1em;
 }
 
 .info-usuario{
@@ -136,9 +137,15 @@ button:hover p{
 
 .tit-principal{
 
-    color: aliceblue;
+    
     font-size: clamp(16px,4vw,25px);
-    font-weight: bold ;
+    font-weight: bolder;
+    background-color: rgb(254, 195, 16);
+    padding: .5em;
+    border-radius: .3em;
+    width: 100%;
+    letter-spacing: .2em;
+    
     
     
 }
